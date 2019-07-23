@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
+}
+
+body {
+    font-family: 'Merriweather', sans-serif;
+    background: #f4f4f4;
+}
+
+.phone {
+    position: relative;
+    margin: 4% auto;
+    width: 360px;
+    height: 660px;
+    border: 1.5px solid #e6e6e6;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #fff;
+}
+
+.header {
+    position: relative;
+    padding: 25px;
+    width: 100%;
+    background: linear-gradient(to right, #f12d2d, #e41616b0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: 28px !important;
+}
+
+.header p {
+    font-size: 16px;
+}
+
+h1 {
+    text-transform: capitalize;
+}
+
+.todo-body {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    overflow-y: scroll;
+    padding-top: 20px;
+}
+
+.todo-body::-webkit-scrollbar {
+    background: transparent;
+    width: 1px;
+}
+
+.todo-list {
+    list-style-type: none;
+    text-align: center;
+}
+
+.todoInput {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    width: 100%;
+    border: 0;
+    border-top: 1px solid #e7e7e7;
+}
+
